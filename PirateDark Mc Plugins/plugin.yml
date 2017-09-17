@@ -1,0 +1,5 @@
+main: darkpirate.plugins.healingbeacons.Main
+name: HealingBeacons
+version: 1.0
+author: DDarkInferno and Sensei_Pirate
+description: Heals players that right click beacons with the correct permission

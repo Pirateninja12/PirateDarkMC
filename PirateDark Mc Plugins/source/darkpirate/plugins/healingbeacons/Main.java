@@ -8,6 +8,7 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
        getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "\n\nHealing Beacons have being enabled\n\n");
+       getServer().getPluginManager().registerEvents(new Events(), this);
     }
    
     @Override
