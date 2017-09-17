@@ -1,5 +1,5 @@
-main: darkpirate.plugins.healingbeacons.Main
+main: darkpirate.plugin.hb.Main
 name: HealingBeacons
 version: 1.0
 author: DDarkPirate
-description: Healing Beacons
+description: Heals players that punch beacons

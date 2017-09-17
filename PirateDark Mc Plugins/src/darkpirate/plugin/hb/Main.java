@@ -1,7 +1,9 @@
-package darkpirate.plugins.healingbeacons;
+package darkpirate.plugin.hb;
 
-import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import darkpirate.plugin.hb.Events.Events;
+import net.md_5.bungee.api.ChatColor;
 
 public class Main extends JavaPlugin {
 	 
