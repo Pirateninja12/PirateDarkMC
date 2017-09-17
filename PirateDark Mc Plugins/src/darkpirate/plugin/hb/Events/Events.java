@@ -23,7 +23,7 @@ public class Events implements Listener {
 				if(player.hasPermission("beacon.heal")) { 
 					if(player.getHealth() != 20) {
 						player.setHealth(player.getHealth() + 1);
-						player.sendMessage(ChatColor.DARK_GREEN + "You have being healed because you punched a beacon" + ChatColor.LIGHT_PURPLE + "X: " + ChatColor.WHITE + block.getX() + ChatColor.LIGHT_PURPLE + "Y: " + ChatColor.WHITE + block.getY() + ChatColor.LIGHT_PURPLE + "Z: " + ChatColor.WHITE + block.getZ());
+						player.sendMessage(ChatColor.DARK_GREEN + "You have being healed because you punched a beacon" + ChatColor.LIGHT_PURPLE + " X: " + ChatColor.WHITE + block.getX() + ChatColor.LIGHT_PURPLE + " Y: " + ChatColor.WHITE + block.getY() + ChatColor.LIGHT_PURPLE + " Z: " + ChatColor.WHITE + block.getZ());
 						player.sendMessage(ChatColor.BLUE + "You have gained half a heart");
 					}else{
 						player.sendMessage(ChatColor.RED + "You have full health");
